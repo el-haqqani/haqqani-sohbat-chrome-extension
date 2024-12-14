@@ -2,13 +2,8 @@ name: Build
 
 on:
   push:
-    branches:
-      - master
     tags:
       - 'v*'  # Trigger on version tags (e.g., v1.0, v2.1)
-  pull_request:
-    branches:
-      - master
 
 jobs:
   build:
@@ -32,7 +27,7 @@ jobs:
     - name: Upload Artifacts
       uses: actions/upload-artifact@v4
       with:
-        name: build-artifacts
+        name: extension
         path: dist
 
   release:
@@ -43,16 +38,16 @@ jobs:
     if: startsWith(github.ref, 'refs/tags/')  # Only run this job for tags
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v2
-
+    - name: Download packages
+      uses: actions/download-artifact@v2
     - name: Create Release
       id: create_release
-      uses: actions/create-release@v1
+      uses: softprops/action-gh-release@v2
       with:
-        tag_name: ${{ github.ref }}
+        name: ${{ github.ref }}
         release_name: Release ${{ github.ref }}
         draft: false
         prerelease: false
+        files: extension
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
