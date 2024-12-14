@@ -48,6 +48,8 @@ jobs:
         name: Release ${{ github.ref }}
         draft: false
         prerelease: false
-        files: haqqani-sohbat-chrome-extension/extension
+        files: ${{ steps.create_release.download-path}}
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    - name: Display structure of downloaded files
+      run: ls -R
