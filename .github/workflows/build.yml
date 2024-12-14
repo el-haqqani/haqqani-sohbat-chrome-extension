@@ -38,10 +38,6 @@ jobs:
     if: startsWith(github.ref, 'refs/tags/')  # Only run this job for tags
 
     steps:
-    - name: Download packages
-      uses: actions/download-artifact@v4
-    - name: Rename artifacts
-      run: mv ./extension ./extension.zip
     - name: Display structure of downloaded filesxx
       run: ls /home/runner/work/haqqani-sohbat-chrome-extension/haqqani-sohbat-chrome-extension/ -R
     - name: Create Release
@@ -52,7 +48,7 @@ jobs:
         name: Release ${{ github.ref }}
         draft: false
         prerelease: false
-        files: /home/runner/work/haqqani-sohbat-chrome-extension/haqqani-sohbat-chrome-extension/extension
+        files: extension/**
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Display structure of downloaded files
