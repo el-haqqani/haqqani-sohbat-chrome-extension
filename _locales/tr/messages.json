@@ -1,0 +1,150 @@
+{
+  "extensionName": {
+    "message": "Şeyh Muhammed Nâzım Adil El-Hakkani Kıbrıs-î K.S. Sohbetleri",
+    "description": "Extension Name"
+  },
+  "name": {
+    "message": "Muhammed Nâzım Adil El-Hakkani Kıbrıs-î K.S.",
+    "description": "Sheikh Name"
+  },
+  "sheikh": {
+    "message": "Şeyh",
+    "description": "String"
+  },
+  "sohbats": {
+    "message": "Sohbetleri",
+    "description": "String"
+  },
+  "watched": {
+    "message": "İZLENDİ",
+    "description": "String"
+  },
+  "markAsWatched": {
+    "message": "İzlendi Olarak İşaretle",
+    "description": "String"
+  },
+  "markAsUnwatched": {
+    "message": "İzlenmedi Olarak İşaretle",
+    "description": "String"
+  },
+  "markAsFavorite": {
+    "message": "Sevdiklerime Ekle",
+    "description": "String"
+  },
+  "removeInFavorites": {
+    "message": "Sevdiklerimden Çıkar",
+    "description": "String"
+  },
+  "backToList": {
+    "message": "Listeye Geri Dön",
+    "description": "String"
+  },
+  "search": {
+    "message": "Ara",
+    "description": "String"
+  },
+  "imageSet": {
+    "message": "Görsel Seti",
+    "description": "String"
+  },
+  "nature": {
+    "message": "Doğa",
+    "description": "String"
+  },
+  "primaryPreferedLanguage": {
+    "message": "İlk Tercih Edilen Dil",
+    "description": "String"
+  },
+  "secondaryPreferedLanguage": {
+    "message": "İkinci Tercih Edilen Dil",
+    "description": "String"
+  },
+  "defaultSorting": {
+    "message": "Varsayılan Sıralama",
+    "description": "String"
+  },
+  "sortByRecordDateAsc": {
+    "message": "Kayıt Tarihine Göre (ARTAN)",
+    "description": "String"
+  },
+  "sortByRecordDateDesc": {
+    "message": "Kayıt Tarihine Göre (AZALAN)",
+    "description": "String"
+  },
+  "sortByRecordDurationAsc": {
+    "message": "Kayıt Süresine Göre (ARTAN)",
+    "description": "String"
+  },
+  "sortByRecordDurationDesc": {
+    "message": "Kayıt Süresine Göre (AZALAN)",
+    "description": "String"
+  },
+  "defaultFilter": {
+    "message": "Varsayılan Filtre",
+    "description": "String"
+  },
+  "displayAll": {
+    "message": "Hepsini Göster",
+    "description": "String"
+  },
+  "displayMyFavorites": {
+    "message": "Sevdiklerimi Göster",
+    "description": "String"
+  },
+  "displayOnlyTurkishRecords": {
+    "message": "Sadece Türkçe Kayıtları Göster",
+    "description": "String"
+  },
+  "displayOnlyEnglishRecords": {
+    "message": "Sadece İngilizce Kayıtları Göster",
+    "description": "String"
+  },
+  "displayOnlyArabicRecords": {
+    "message": "Sadece Arapça Kayıtları Göster",
+    "description": "String"
+  },
+  "displayWatchedRecords": {
+    "message": "İzlediklerimi Göster",
+    "description": "String"
+  },
+  "settings": {
+    "message": "Ayarlar",
+    "description": "String"
+  },
+  "advancedSettings": {
+    "message": "Gelişmiş Ayarlar",
+    "description": "String"
+  },
+  "watchedRecords": {
+    "message": "İzlenen Kayıtlar",
+    "description": "String"
+  },
+  "autoPlayVideo": {
+    "message": "Otomatik Sohbeti Oynat",
+    "description": "String"
+  },
+  "autoMarkWatched": {
+    "message": "Otomatik İzlenenleri İşaretle",
+    "description": "String"
+  },
+  "myFavorites": {
+    "message": "Sevdiklerim",
+    "description": "String"
+  },
+  "transcriptions": {
+    "message": "Transkripsiyon",
+    "description": "String"
+  },
+  "openInNewTab": {
+    "message": "Yeni Sekmede Aç",
+    "description": "String"
+  },
+  "resetSettingsConfirmation": {
+    "message": "Ayarları Sıfırlamak istediğinize emin misiniz?",
+    "description": "String"
+  },
+  "importSettingsError": {
+    "message": "Ayarları İçe Aktarma İzni Verilmedi. Lütfen dosya formatını kontrol edin.",
+    "description": "String"
+  }
+}

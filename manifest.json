@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "__MSG_extensionName__",
+  "version": "0.0.1",
+  "description": "__MSG_extensionName__",
+  "default_locale": "en",
+  "action": {
+    "default_title": "__MSG_extensionName__",
+    "default_popup": "index.html"
+  },
+  "icons": {
+    "16": "public/icons/16.png",
+    "32": "public/icons/32.png",
+    "48": "public/icons/48.png",
+    "128": "public/icons/128.png"
+  },
+  "permissions": [
+    "storage"
+  ]
+}

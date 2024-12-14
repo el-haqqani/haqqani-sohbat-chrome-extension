@@ -1,0 +1,150 @@
+{
+  "extensionName": {
+    "message": "Sheikh Muhammed Nâzım Adil El-Hakkani Kıbrıs-î K.S. Sohbats",
+    "description": "Extension Name"
+  },
+  "name": {
+    "message": "Muhammed Nâzım Adil El-Hakkani Kıbrıs-î K.S.",
+    "description": "Sheikh Name"
+  },
+  "sheikh": {
+    "message": "شيخ",
+    "description": "String"
+  },
+  "sohbats": {
+    "message": "سَوْهَبْت",
+    "description": "String"
+  },
+  "watched": {
+    "message": "شاهد",
+    "description": "String"
+  },
+  "markAsWatched": {
+    "message": "وضع علامة مراقب",
+    "description": "String"
+  },
+  "markAsUnwatched": {
+    "message": "وضع علامة على أنه لم تتم مشاهدته",
+    "description": "String"
+  },
+  "markAsFavorite": {
+    "message": "إضافة للمفضلة",
+    "description": "String"
+  },
+  "removeInFavorites": {
+    "message": "إخراج المفضلة",
+    "description": "String"
+  },
+  "backToList": {
+    "message": "الرجوع للقائمة",
+    "description": "String"
+  },
+  "search": {
+    "message": "اتصلي",
+    "description": "String"
+  },
+  "imageSet": {
+    "message": "سطح الصورة",
+    "description": "String"
+  },
+  "nature": {
+    "message": "طبيعة سجية",
+    "description": "String"
+  },
+  "primaryPreferedLanguage": {
+    "message": "اللغة المفضلة الأولى",
+    "description": "String"
+  },
+  "secondaryPreferedLanguage": {
+    "message": "اللغة المفضلة الثانية",
+    "description": "String"
+  },
+  "defaultSorting": {
+    "message": "فرز افتراضي",
+    "description": "String"
+  },
+  "sortByRecordDateAsc": {
+    "message": "حسب تاريخ التسجيل (زيادة)",
+    "description": "String"
+  },
+  "sortByRecordDateDesc": {
+    "message": "حسب تاريخ الإرسال (تنازلي)",
+    "description": "String"
+  },
+  "sortByRecordDurationAsc": {
+    "message": "حسب فترة التسجيل (زيادة)",
+    "description": "String"
+  },
+  "sortByRecordDurationDesc": {
+    "message": "حسب فترة التسجيل (تنازلي)",
+    "description": "String"
+  },
+  "defaultFilter": {
+    "message": "عامل التصفية الافتراضي",
+    "description": "String"
+  },
+  "displayAll": {
+    "message": "عرض الكل",
+    "description": "String"
+  },
+  "displayMyFavorites": {
+    "message": "إظهار مفضلاتي",
+    "description": "String"
+  },
+  "displayOnlyTurkishRecords": {
+    "message": "عرض السجلات فقط باللغة التركية",
+    "description": "String"
+  },
+  "displayOnlyEnglishRecords": {
+    "message": "عرض السجلات باللغة الإنجليزية فقط",
+    "description": "String"
+  },
+  "displayOnlyArabicRecords": {
+    "message": "عرض السجلات فقط باللغة العربية",
+    "description": "String"
+  },
+  "displayWatchedRecords": {
+    "message": "اعرض ما شاهدته",
+    "description": "String"
+  },
+  "autoPlayVideo": {
+    "message": "بدء تشغيل الفيديو تلقائيا",
+    "description": "String"
+  },
+  "autoMarkWatched": {
+    "message": "وضع علامة المشاهدة تلقائيًا",
+    "description": "String"
+  },
+  "settings": {
+    "message": "الاعدادات",
+    "description": "String"
+  },
+  "advancedSettings": {
+    "message": "إعدادات متقدمة",
+    "description": "String"
+  },
+  "watchedRecords": {
+    "message": "السجلات المرصودة",
+    "description": "String"
+  },
+  "myFavorites": {
+    "message": "مفضلتي",
+    "description": "String"
+  },
+  "transcriptions": {
+    "message": "سجل النصوص",
+    "description": "String"
+  },
+  "openInNewTab": {
+    "message": "فتح في علامة تبويب جديدة",
+    "description": "String"
+  },
+  "resetSettingsConfirmation": {
+    "message": "هل تريد اعادة تعيين الاعدادات؟",
+    "description": "String"
+  },
+  "importSettingsError": {
+    "message": "لا يمكن استيراد الاعدادات. يرجى التحقق من تنسيق الملف.",
+    "description": "String"
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "extensionName": {
+    "message": "Sheikh Muhammed Nâzım Adil El-Hakkani Kıbrıs-î K.S. Sohbats",
+    "description": "Extension Name"
+  },
+  "name": {
+    "message": "Muhammed Nâzım Adil El-Hakkani Kıbrıs-î K.S.",
+    "description": "Sheikh Name"
+  },
+  "sheikh": {
+    "message": "Sheikh",
+    "description": "String"
+  },
+  "sohbats": {
+    "message": "Sohbats",
+    "description": "String"
+  },
+  "watched": {
+    "message": "WATCHED",
+    "description": "String"
+  },
+  "markAsWatched": {
+    "message": "Mark as Watched",
+    "description": "String"
+  },
+  "markAsUnwatched": {
+    "message": "Mark as Unwatched",
+    "description": "String"
+  },
+  "markAsFavorite": {
+    "message": "Mark as Favorite",
+    "description": "String"
+  },
+  "removeInFavorites": {
+    "message": "Remove in Favorites",
+    "description": "String"
+  },
+  "backToList": {
+    "message": "Back to List",
+    "description": "String"
+  },
+  "search": {
+    "message": "Search",
+    "description": "String"
+  },
+  "imageSet": {
+    "message": "Image Set",
+    "description": "String"
+  },
+  "nature": {
+    "message": "Nature",
+    "description": "String"
+  },
+  "primaryPreferedLanguage": {
+    "message": "Primary Preferred Language",
+    "description": "String"
+  },
+  "secondaryPreferedLanguage": {
+    "message": "Secondary Preferred Language",
+    "description": "String"
+  },
+  "defaultSorting": {
+    "message": "Default Sorting",
+    "description": "String"
+  },
+  "sortByRecordDateAsc": {
+    "message": "Sort by record date (ASC)",
+    "description": "String"
+  },
+  "sortByRecordDateDesc": {
+    "message": "Sort by record date (DESC)",
+    "description": "String"
+  },
+  "sortByRecordDurationAsc": {
+    "message": "Sort by record duration (ASC)",
+    "description": "String"
+  },
+  "sortByRecordDurationDesc": {
+    "message": "Sort by record duration (DESC)",
+    "description": "String"
+  },
+  "defaultFilter": {
+    "message": "Default Filter",
+    "description": "String"
+  },
+  "displayAll": {
+    "message": "Display All",
+    "description": "String"
+  },
+  "displayMyFavorites": {
+    "message": "Display My Favorites",
+    "description": "String"
+  },
+  "displayOnlyTurkishRecords": {
+    "message": "Display Only Turkish Records",
+    "description": "String"
+  },
+  "displayOnlyEnglishRecords": {
+    "message": "Display Only English Records",
+    "description": "String"
+  },
+  "displayOnlyArabicRecords": {
+    "message": "Display Only Arabic Records",
+    "description": "String"
+  },
+  "displayWatchedRecords": {
+    "message": "Display Watched Records",
+    "description": "String"
+  },
+  "autoPlayVideo": {
+    "message": "Auto Play Video",
+    "description": "String"
+  },
+  "autoMarkWatched": {
+    "message": "Auto Mark Watched",
+    "description": "String"
+  },
+  "settings": {
+    "message": "Settings",
+    "description": "String"
+  },
+  "advancedSettings": {
+    "message": "Advanced Settings",
+    "description": "String"
+  },
+  "watchedRecords": {
+    "message": "Watched Records",
+    "description": "String"
+  },
+  "myFavorites": {
+    "message": "My Favorites",
+    "description": "String"
+  },
+  "transcriptions": {
+    "message": "Transcriptions",
+    "description": "String"
+  },
+  "openInNewTab": {
+    "message": "Open in New Tab",
+    "description": "String"
+  },
+  "resetSettingsConfirmation": {
+    "message": "Are you sure you want to reset the settings?",
+    "description": "String"
+  },
+  "importSettingsError": {
+    "message": "Failed to import settings. Please check the file format.",
+    "description": "String"
+  }
+}
