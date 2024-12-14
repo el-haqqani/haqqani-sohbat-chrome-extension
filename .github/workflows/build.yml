@@ -48,6 +48,6 @@ jobs:
         name: Release ${{ github.ref }}
         draft: false
         prerelease: false
-        files: extension
+        files: haqqani-sohbat-chrome-extension/extension
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
