@@ -48,7 +48,7 @@ jobs:
         name: Release ${{ github.ref }}
         draft: false
         prerelease: false
-        files: ${{ steps.create_release.download-path}}
+        files: ${{ steps.create_release.outputs.download-path}}
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Display structure of downloaded files
