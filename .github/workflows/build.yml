@@ -42,6 +42,8 @@ jobs:
       uses: actions/download-artifact@v4
     - name: Rename artifacts
       run: mv ./extension ./extension.zip
+    - name: Display structure of downloaded filesxx
+      run: ls /home/runner/work/haqqani-sohbat-chrome-extension/haqqani-sohbat-chrome-extension/ -R
     - name: Create Release
       id: create_release
       uses: softprops/action-gh-release@v2
@@ -50,7 +52,7 @@ jobs:
         name: Release ${{ github.ref }}
         draft: false
         prerelease: false
-        files: extension.zip
+        files: /home/runner/work/haqqani-sohbat-chrome-extension/haqqani-sohbat-chrome-extension/extension
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Display structure of downloaded files
