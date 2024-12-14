@@ -50,7 +50,7 @@ jobs:
         name: Release ${{ github.ref }}
         draft: false
         prerelease: false
-        files: ./extension.zip
+        files: extension.zip
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     - name: Display structure of downloaded files
