@@ -42,13 +42,11 @@ jobs:
       uses: actions/download-artifact@v4
       with:
         name: extension
-        path: dist
+        path: haqqani-sohbat-chrome-extension
     - name: Build ID
-      run: echo ${{ github.sha }} > Release.txt
-    - name: list
-      run: ls -R
+      run: echo ${{ github.sha }} > release.txt
     - name: Zip Extension
-      run: zip -r extension.zip ./dist
+      run: zip -r extension.zip ./haqqani-sohbat-chrome-extension
     - name: Create Release
       id: create_release
       uses: softprops/action-gh-release@v2
@@ -59,6 +57,6 @@ jobs:
         prerelease: false
         files: |
           extension.zip
-          Release.txt
+          release.txt
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
