@@ -43,7 +43,7 @@ jobs:
     - name: Build ID
       run: echo ${{ github.sha }} > Release.txt
     - name: Zip Extension
-      run: zip -r extension.zip dist -x
+      run: zip -r extension.zip dist
     - name: Create Release
       id: create_release
       uses: softprops/action-gh-release@v2
