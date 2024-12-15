@@ -40,7 +40,7 @@ This extension is built with:
 
 ### Installing the Extension
 
-1. Build the extension or download from built version
+1. Build the extension or download from releases section
 2. Open Chrome and navigate to `chrome://extensions`
 3. Enable "Developer mode"
 4. Click "Load unpacked" and select the unpacked archive directory
