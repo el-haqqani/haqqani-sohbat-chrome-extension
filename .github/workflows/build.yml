@@ -40,17 +40,10 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v4
-    - name: Download Artifacts
-      uses: actions/download-artifact@v4
-      with:
-        name: extension
-        path: dist
     - name: Build ID
       run: echo ${{ github.sha }} > Release.txt
-    - name: Display structure of downloaded filesxx
-      run: ls /home/runner/work/haqqani-sohbat-chrome-extension/haqqani-sohbat-chrome-extension/ -R
-    - name: Display structure of downloaded filesxx
-      run: ls -R
+    - name: Zip Extension
+      run: zip -r extension.zip dist -x
     - name: Create Release
       id: create_release
       uses: softprops/action-gh-release@v2
@@ -64,5 +57,3 @@ jobs:
           Release.txt
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-    - name: Display structure of downloaded files
-      run: ls -R
