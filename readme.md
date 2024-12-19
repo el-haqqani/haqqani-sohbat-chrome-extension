@@ -40,6 +40,10 @@ This extension is built with:
 
 ### Installing the Extension
 
+[Get it](https://microsoftedge.microsoft.com/addons/detail/sheikh-muhammed-n%C3%A2z%C4%B1m-adi/emhmbgiikfiimcfamccpojlbdmknefkl) from Microsoft Edge Add-ons
+
+or
+
 1. Build the extension or download from releases section
 2. Open Chrome and navigate to `chrome://extensions`
 3. Enable "Developer mode"
